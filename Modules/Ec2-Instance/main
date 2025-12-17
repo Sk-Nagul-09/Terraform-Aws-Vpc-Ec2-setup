@@ -1,0 +1,14 @@
+resource "aws_instance" "web_ec2" {
+  ami                    = "ami-068c0051b15cdb816"   # use valid AMI for your region
+  instance_type          = "t2.micro"
+  subnet_id              = var.subnet_id
+  vpc_security_group_ids = [var.security_group_id]
+
+  key_name               = "mind-cir-1"
+
+  associate_public_ip_address = true
+
+  tags = {
+    Name = "web-ec2-instance"
+  }
+}
