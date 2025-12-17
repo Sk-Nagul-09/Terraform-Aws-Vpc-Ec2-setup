@@ -72,8 +72,9 @@ Copy code
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/<your-username>/terraform-aws-vpc-ec2-setup.git
-cd terraform-aws-vpc-ec2-setup
+git clone https://github.com/Sk-Nagul-09/Terraform-Aws-Vpc-Ec2-setup.git
+cd Terraform-Aws-Vpc-Ec2-Setup
+
 ```
 
 2. Configure AWS credentials
