@@ -22,22 +22,19 @@ You will learn how to create:
 ---
 
 ## 📂 Folder Structure
-
-Terraform-LinkedIn-Practice/
-│
+```
+Terraform-Aws-Vpc-Ec2-setup/
 ├── Modules/
-│ ├── network/ # VPC, subnets, route tables
-│ ├── security/ # Security Group creation
+│ ├── network/ # VPC, subnets, routes
+│ ├── security/ # Security Group module
 │ └── Ec2-Instance/ # EC2 instance module
-│
-├── main.tf # Root module configuration
+├── screenshots/ # Project screenshots
+├── main.tf # Root Terraform config
 ├── variables.tf # Root variables
 ├── outputs.tf # Root outputs
-├── provider.tf # AWS provider
-└── README.md # This file
-
-yaml
-Copy code
+├── provider.tf # AWS provider config
+└── README.md # Project documentation
+```
 
 ---
 
